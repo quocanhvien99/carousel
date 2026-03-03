@@ -85,12 +85,12 @@ export default function Carousel({
       if (-offset / SLIDE_WIDTH + currentIndex > internalSlides.length) {
         setCurrentIndex(0);
         offset = offset % SLIDE_WIDTH;
-        startX.current = ev.clientX;
+        startX.current = ev.clientX - offset;
       }
     } else if (currentIndex - offset / SLIDE_WIDTH <= -1) {
       setCurrentIndex(internalSlides.length - 1);
       offset = offset % SLIDE_WIDTH;
-      startX.current = ev.clientX;
+      startX.current = ev.clientX - offset;
     }
 
     setOffset(offset);

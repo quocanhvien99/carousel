@@ -2,31 +2,29 @@
 
 Dự án Carousel component được xây dựng bằng React, TypeScript và Vite. Component hỗ trợ tính năng kéo thả (drag), autoplay và điều hướng tự động.
 
+## Demo
+
+🔗 [https://quocanhvien99.github.io/carousel/](https://quocanhvien99.github.io/carousel/)
+
 ## Yêu cầu hệ thống
 
 - **Node.js**: Phiên bản 20 trở lên
 
 ## Hướng dẫn cài đặt và chạy local
 
-### 1. Checkout branch main
-
-```bash
-git checkout main
-```
-
-### 2. Cài đặt thư viện
+### 1. Cài đặt thư viện
 
 ```bash
 npm install
 ```
 
-### 3. Build dự án
+### 2. Build dự án
 
 ```bash
 npm run build
 ```
 
-### 4. Chạy preview
+### 3. Chạy preview
 
 ```bash
 npm run preview
